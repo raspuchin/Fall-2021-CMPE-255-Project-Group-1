@@ -37,3 +37,6 @@ The classification metrics used to compare models will be:
 - Accuracy
 - Precision
 - Recall
+
+### Links [DELETE]
+Trying to implement https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794

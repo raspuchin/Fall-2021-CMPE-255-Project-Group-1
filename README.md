@@ -2,7 +2,7 @@
 
 This is our group project for CMPE 255.
 
-### Abstract
+## Abstract
 
 The general aim for this project is to read compare different classification metrics on a dataset of our choosing.
 
@@ -10,10 +10,15 @@ We combined the One million reddit jokes dataset and highlights from the CNN dai
 
 The combined file is available at: [Google Drive Link](https://drive.google.com/drive/folders/1YNhdT8fcHVJrEFEoP6c913kB3gUGkDPs?usp=sharing)
 
-### Description
+## Description
 
 This problem is a binary classification problem. After preprocessing the data we will test a variety of different classification models to determine which model works best. 
 
+### Dimensionality Reduction
+- TfIdf Vectorization
+- Singluar value decomposition(SVD)
+
+### Models
 The models we will test are:
 
 - SVC (Support Vector Classifier)
@@ -25,6 +30,7 @@ The models we will test are:
 
 We will use the same metrics for each model to compare them.
 
+### Classification Metrics
 The classification metrics used to compare models will be:
 
 - F1-Score

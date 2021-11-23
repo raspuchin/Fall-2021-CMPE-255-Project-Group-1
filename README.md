@@ -16,7 +16,7 @@ This problem is a binary classification problem. After preprocessing the data we
 
 ### Dimensionality Reduction
 - TfIdf Vectorization
-- Singluar value decomposition(SVD)
+- Singluar value decomposition(SVD): [Link for data](https://drive.google.com/drive/folders/1_Ym2UIX5lv12EzSRTNZbjWxqNfrlxk4K?usp=sharing)
 
 ### Models
 The models we will test are:

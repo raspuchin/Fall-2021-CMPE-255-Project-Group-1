@@ -17,16 +17,17 @@ This problem is a binary classification problem. After preprocessing the data we
 ### Dimensionality Reduction
 - TfIdf Vectorization
 - Singluar value decomposition(SVD): [Link for data](https://drive.google.com/drive/folders/1_Ym2UIX5lv12EzSRTNZbjWxqNfrlxk4K?usp=sharing)
+- Word2Vec Processing
 
 ### Models
 The models we will test are:
 
-- SVC (Support Vector Classifier)
-- KNN Classifier
+- Decision Tree
+- Logistic Regression
 - Neural Network
 - Random Forest Classifier
-- Bagging/Boosting
-- Naive Bayes
+- SVC (Support Vector Classifier)
+- XGBoost
 
 We will use the same metrics for each model to compare them.
 
@@ -37,3 +38,10 @@ The classification metrics used to compare models will be:
 - Accuracy
 - Precision
 - Recall
+
+### Running main.py
+This is a command line program, so you can run it using the command `python3 main.py`
+This program reads frome the file [cleaned_data.csv](https://drive.google.com/drive/folders/1_Ym2UIX5lv12EzSRTNZbjWxqNfrlxk4K?usp=sharing). 
+This file must be in the same directory as main.py. 
+Alternatively, you can run the jupyter notebook [main.ipynb](main.ipynb) for the same results. This file takes text as input
+and will classify the input as a joke or a headline.

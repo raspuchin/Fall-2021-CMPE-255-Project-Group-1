@@ -41,7 +41,7 @@ The classification metrics used to compare models will be:
 
 ### Running main.py
 This is a command line program, so you can run it using the command `python3 main.py`
-This program reads frome the file [cleaned_data.csv](https://drive.google.com/drive/folders/1_Ym2UIX5lv12EzSRTNZbjWxqNfrlxk4K?usp=sharing). 
+This program reads from the file [cleaned_data.csv](https://drive.google.com/drive/folders/1_Ym2UIX5lv12EzSRTNZbjWxqNfrlxk4K?usp=sharing). 
 This file must be in the same directory as main.py. 
 Alternatively, you can run the jupyter notebook [main.ipynb](main.ipynb) for the same results. This file takes text as input
 and will classify the input as a joke or a headline.
